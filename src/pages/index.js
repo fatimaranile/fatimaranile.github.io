@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import patDP from '../assets/images/patdisplayphoto.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -37,28 +37,20 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="intro" className="main">
+          <section id="aboutMe" className="main">
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Hi! I go by the name of Pat.</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  I write code for a living and just started doing it as a hobby. 😉 <br/>
+                  As cliche as it may sound but learning and exploring new things excite me. <br/>
+                  Lasty, I prefer doing things in a minimal way, targeting those that bring value and ensuring quality on everything I do.
                 </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/generic" className="button">
-                      Learn More
-                    </Link>
-                  </li>
-                </ul>
               </div>
               <span className="image">
-                <img src={pic01} alt="" />
+                <img src={patDP} alt="" />
               </span>
             </div>
           </section>
