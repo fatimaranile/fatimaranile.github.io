@@ -45,8 +45,8 @@ class Index extends React.Component {
                 </header>
                 <p>
                   I write code for a living and just started doing it as a hobby. 😉 <br/>
-                  As cliche as it may sound but learning and exploring new things excite me. <br/>
-                  Lasty, I prefer doing things in a minimal way, targeting those that bring value and ensuring quality on everything I do.
+                  As cliche as it may sound, but learning and exploring new things excite me. <br/>
+                  Lastly, I prefer doing things in a minimal way, targeting those that bring value and ensuring quality in everything I do.
                 </p>
               </div>
               <span className="image">
