@@ -113,8 +113,8 @@
 			}
 
 			&.alt {
- 				border-color: _palette($p, border);
- 				color: _palette($p, fg-bold);
+ 				border-color: black;
+ 				color: black;
 
 				&:hover {
 					background-color: _palette($p, border-bg);
