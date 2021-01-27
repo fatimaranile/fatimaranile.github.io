@@ -3,6 +3,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import patDP from '../assets/images/patdisplayphoto.png'
+import gomiguIcon from '../assets/images/gomigu.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -37,35 +38,19 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-          <section id="aboutMe" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Hi! I go by the name of Pat.</h2>
-                </header>
-                <p>
-                  I write code for a living and just started doing it as a hobby. 😉 <br/>
-                  As cliche as it may sound, but learning and exploring new things excite me. <br/>
-                  Lastly, I prefer doing things in a minimal way, targeting those that bring value and ensuring quality in everything I do.
-                </p>
-              </div>
-              <span className="image">
-                <img src={patDP} alt="" />
-              </span>
-            </div>
-          </section>
-
-          <section id="first" className="main special">
-            <header className="major">
-              <h2>Magna veroeros</h2>
-            </header>
+          <section id="portfolio" className="main special">
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <span>
+                  <img className="image projectIcon" src={gomiguIcon} alt="" />
+                </span>
+                <h2>Gomigu </h2>
+                <p>(Mobile Application) <br/>
+                  May 2017 - Feb 2018
+                </p>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Gomigu is a free messaging application in which it can be used through web app and/or mobile phones.
+                  During the course of my involvement, the mobile application was developed using React Native as a framework, Redux to manage its state and Javascript.
                 </p>
               </li>
               <li>
@@ -85,18 +70,27 @@ class Index extends React.Component {
                 </p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="aboutMe" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>Hi! I go by the name of Pat.</h2>
+                </header>
+                <p>
+                  I write code for a living and just started doing it as a hobby. 😉 <br/>
+                  As cliche as it may sound, but learning and exploring new things excite me. <br/>
+                  Lastly, I prefer doing things in a minimal way, targeting those that bring value and ensuring quality in everything I do.
+                </p>
+              </div>
+              <span className="image">
+                <img src={patDP} alt="" />
+              </span>
+            </div>
+          </section>
+
+          <section id="contactMe" className="main special">
             <header className="major">
               <h2>Ipsum consequat</h2>
               <p>
