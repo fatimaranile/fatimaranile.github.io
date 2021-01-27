@@ -13,7 +13,7 @@ module.exports = {
         short_name: 'starter',
         start_url: '/',
         background_color: '#d9843e',
-        theme_color: '#d9843e',
+        theme_color: '#ffffff',
         display: 'minimal-ui',
         icon: 'src/assets/images/frlogo.png', // This path is relative to the root of the site.
       },
