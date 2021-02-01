@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#d9843e',
         theme_color: '#ffffff',
         display: 'minimal-ui',
-        icon: 'src/assets/images/frlogo.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/frlogowhite.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

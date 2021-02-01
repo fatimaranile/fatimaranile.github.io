@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import patDP from '../assets/images/patdisplayphoto.png'
 import gomiguIcon from '../assets/images/gomigu.png'
+import flmsIcon from '../assets/images/ncrflms.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -42,6 +43,22 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <span>
+                  <img className="image projectIcon" src={flmsIcon} alt="" />
+                </span>
+                <h2>FastLane Mobile Shopper</h2>
+                <p>(Mobile Application) <br/>
+                  April 2018 - Present
+                </p>
+                <p>
+                  FLMS application offers another level of convenience while shopping in a store.
+                  It has the functionalities to scan item, create shopping list, locate store and mobile payment. 
+                  Making life easier for shoppers. <br />
+                  There are two FLMS applications. The first one is written in C# that uses the framework Xamarin Forms.
+                  The other application uses React Native. 
+                </p>
+              </li>
+              <li>
+                <span>
                   <img className="image projectIcon" src={gomiguIcon} alt="" />
                 </span>
                 <h2>Gomigu </h2>
@@ -51,14 +68,6 @@ class Index extends React.Component {
                 <p>
                   Gomigu is a free messaging application in which it can be used through web app and/or mobile phones.
                   During the course of my involvement, the mobile application was developed using React Native as a framework, Redux to manage its state and Javascript.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
                 </p>
               </li>
               <li>
@@ -80,7 +89,7 @@ class Index extends React.Component {
                 </header>
                 <p>
                   I write code for a living and just started doing it as a hobby. 😉 <br/>
-                  As cliche as it may sound, but learning and exploring new things excite me. <br/>
+                  As cliche as it may sound, but learning and exploring new things excite me.
                   Lastly, I prefer doing things in a minimal way, targeting those that bring value and ensuring quality in everything I do.
                 </p>
               </div>
