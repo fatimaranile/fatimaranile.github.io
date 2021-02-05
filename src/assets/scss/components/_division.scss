@@ -1,0 +1,24 @@
+/* Header Division */
+
+.division {
+  display: inline-flex;
+
+  &.headerDivision {
+    display: inline-flex;
+
+    div {
+      display: inline-flex;
+    }
+  }
+
+  &.logoDivision {
+    flex: 0.5;
+    align-self: center;
+  }
+
+  &.nameTitleDivision {
+    flex: 1.5;
+    align-self: center;
+    display: block;
+  }
+}

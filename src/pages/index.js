@@ -46,15 +46,18 @@ class Index extends React.Component {
                   <img className="image projectIcon" src={flmsIcon} alt="" />
                 </span>
                 <h2>FastLane Mobile Shopper</h2>
-                <p>(Mobile Application) <br/>
+                <p>
+                  (Mobile Application) <br />
                   April 2018 - Present
                 </p>
                 <p>
-                  FLMS application offers another level of convenience while shopping in a store.
-                  It has the functionalities to scan item, create shopping list, locate store and mobile payment. 
-                  Making life easier for shoppers. <br />
-                  There are two FLMS applications. The first one is written in C# that uses the framework Xamarin Forms.
-                  The other application uses React Native. 
+                  FLMS application offers another level of convenience while
+                  shopping in a store. It has the functionalities to scan item,
+                  create shopping list, locate store and mobile payment. Making
+                  life easier for shoppers. <br />
+                  There are two FLMS applications. The first one is written in
+                  C# that uses the framework Xamarin Forms. The other
+                  application uses React Native.
                 </p>
               </li>
               <li>
@@ -62,12 +65,16 @@ class Index extends React.Component {
                   <img className="image projectIcon" src={gomiguIcon} alt="" />
                 </span>
                 <h2>Gomigu </h2>
-                <p>(Mobile Application) <br/>
+                <p>
+                  (Mobile Application) <br />
                   May 2017 - Feb 2018
                 </p>
                 <p>
-                  Gomigu is a free messaging application in which it can be used through web app and/or mobile phones.
-                  During the course of my involvement, the mobile application was developed using React Native as a framework, Redux to manage its state and Javascript.
+                  Gomigu is a free messaging application in which it can be used
+                  through web app and/or mobile phones. During the course of my
+                  involvement, the mobile application was developed using React
+                  Native as a framework, Redux to manage its state and
+                  Javascript.
                 </p>
               </li>
               <li>
@@ -88,14 +95,81 @@ class Index extends React.Component {
                   <h2>Hi! I go by the name of Pat.</h2>
                 </header>
                 <p>
-                  I write code for a living and just started doing it as a hobby. 😉 <br/>
-                  As cliche as it may sound, but learning and exploring new things excite me.
-                  Lastly, I prefer doing things in a minimal way, targeting those that bring value and ensuring quality in everything I do.
+                  I write code for a living and just started doing it as a
+                  hobby. 😉 <br />
+                  As cliche as it may sound, but learning and exploring new
+                  things excite me. Lastly, I prefer doing things in a minimal
+                  way, targeting those that bring value and ensuring quality in
+                  everything I do.
                 </p>
               </div>
               <span className="image">
                 <img src={patDP} alt="" />
               </span>
+            </div>
+            <div className="details">
+              <div className="details workexperience">
+                <header className="major">
+                  <h2>Work Experience</h2>
+                </header>
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-bookmark"></i>
+                    </span>
+                    <p>
+                      Zoog Technologies, Inc. <br /> May 2017 - Feb 2018 <br />
+                      Front-End Software Developer
+                    </p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-bookmark"></i>
+                    </span>
+                    <p>
+                      NCR Corporation <br /> April 2018 - Present <br />
+                      Front-End Software Developer
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div className="details skills">
+                <header className="major">
+                  <h2>Skills</h2>
+                </header>
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>C#</p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>Javascript</p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>Xamarin Forms</p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>React Native</p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>ReactJS</p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
 

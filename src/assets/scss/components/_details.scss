@@ -1,0 +1,25 @@
+/* Know Me Details */
+
+.details {
+  display: flex;
+
+  &.workexperience {
+    display: inline;
+    flex: 1;
+
+    div {
+      display: inline;
+      flex: 1;
+    }
+  }
+
+  &.skills {
+    display: inline;
+    flex: 0.5;
+
+    div {
+      display: inline;
+      flex: 0.5;
+    }
+  }
+}
