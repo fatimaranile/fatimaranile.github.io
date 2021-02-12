@@ -59,6 +59,20 @@ class Index extends React.Component {
                   C# that uses the framework Xamarin Forms. The other
                   application uses React Native.
                 </p>
+                <ul className="icons applicationicons">
+                  <li>
+                    <a
+                      href="https://apps.apple.com/ph/app/ncr-fastlane/id1505486617"
+                      className="icon fa-apple alt"
+                    />
+                  </li>
+                  <li>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.ncrcorporation.FLMSXMS"
+                      className="icon fa-android alt"
+                    />
+                  </li>
+                </ul>
               </li>
               <li>
                 <span>
@@ -76,6 +90,20 @@ class Index extends React.Component {
                   Native as a framework, Redux to manage its state and
                   Javascript.
                 </p>
+                <ul className="icons applicationicons">
+                  <li>
+                    <a
+                      href="https://apps.apple.com/ph/app/gomigu/id1367927910"
+                      className="icon fa-apple alt"
+                    />
+                  </li>
+                  <li>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.gomigu"
+                      className="icon fa-android alt"
+                    />
+                  </li>
+                </ul>
               </li>
             </ul>
           </section>
