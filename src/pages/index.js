@@ -48,13 +48,13 @@ class Index extends React.Component {
                 <h2>FastLane Mobile Shopper</h2>
                 <p>
                   (Mobile Application) <br />
-                  April 2018 - Present
+                  April 2018 - May 2021
                 </p>
                 <p>
                   FLMS application offers another level of convenience while
-                  shopping in a store. It has the functionalities to scan item,
-                  create shopping list, locate store and mobile payment. Making
-                  life easier for shoppers. <br />
+                  shopping in a store. It has the functionalities to scan items,
+                  create a shopping list, locate stores, and mobile payments.
+                  Making life easier for shoppers. <br />
                   There are two FLMS applications. The first one is written in
                   C# that uses the framework Xamarin Forms. The other
                   application uses React Native.
@@ -85,10 +85,9 @@ class Index extends React.Component {
                 </p>
                 <p>
                   Gomigu is a free messaging application in which it can be used
-                  through web app and/or mobile phones. During the course of my
-                  involvement, the mobile application was developed using React
-                  Native as a framework, Redux to manage its state and
-                  Javascript.
+                  through a web app and/or mobile phone. During my involvement,
+                  the mobile application was developed using React Native as a
+                  framework, Redux to manage its state, and Javascript.
                 </p>
                 <ul className="icons applicationicons">
                   <li>
@@ -138,7 +137,7 @@ class Index extends React.Component {
                       <i class="fa fa-bookmark"></i>
                     </span>
                     <p>
-                      Zoog Technologies, Inc. <br /> May 2017 - Feb 2018 <br />
+                      NCR Corporation <br /> April 2018 - May 2021 <br />
                       Front-End Software Developer
                     </p>
                   </li>
@@ -146,8 +145,9 @@ class Index extends React.Component {
                     <span class="fa-li">
                       <i class="fa fa-bookmark"></i>
                     </span>
+
                     <p>
-                      NCR Corporation <br /> April 2018 - Present <br />
+                      Zoog Technologies, Inc. <br /> May 2017 - Feb 2018 <br />
                       Front-End Software Developer
                     </p>
                   </li>
