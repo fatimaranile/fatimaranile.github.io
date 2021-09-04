@@ -8,6 +8,9 @@ import flmsIcon from '../assets/images/ncrflms.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import WorkExperience from '../components/WorkExperience'
+import Skills from '../components/Skills'
+import Exploring from '../components/Exploring'
 
 class Index extends React.Component {
   constructor(props) {
@@ -128,116 +131,9 @@ class Index extends React.Component {
               </span>
             </div>
             <div className="details">
-              <div className="details workexperience">
-                <header className="major">
-                  <h2>Work Experience</h2>
-                </header>
-                <ul class="fa-ul">
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-bookmark"></i>
-                    </span>
-                    <p>
-                      WeServ Systems International Inc <br /> July 2021 -
-                      Present <br />
-                      Application Systems Engineer/Consultant
-                    </p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-bookmark"></i>
-                    </span>
-                    <p>
-                      NCR Corporation <br /> April 2018 - May 2021 <br />
-                      Front-End Software Developer
-                    </p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-bookmark"></i>
-                    </span>
-
-                    <p>
-                      Zoog Technologies, Inc. <br /> May 2017 - Feb 2018 <br />
-                      Front-End Software Developer
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div className="details skills">
-                <header className="major">
-                  <h2>Skills</h2>
-                </header>
-                <ul class="fa-ul">
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>C#</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>Javascript</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>Xamarin Forms</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>React Native</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>Git</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="details skills">
-                <header className="major">
-                  <h2>Currently Exploring</h2>
-                </header>
-                <ul class="fa-ul">
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>ReactJS</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>Node.js</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>Express</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>PostgreSQL</p>
-                  </li>
-                  <li>
-                    <span class="fa-li">
-                      <i class="fa fa-terminal"></i>
-                    </span>
-                    <p>RESTful API</p>
-                  </li>
-                </ul>
-              </div>
+              <WorkExperience />
+              <Skills />
+              <Exploring />
             </div>
           </section>
 
