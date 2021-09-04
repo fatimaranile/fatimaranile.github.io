@@ -9,7 +9,7 @@ const Header = props => (
       </div>
       <div className="division nameTitleDivision">
         <h1>Fatima Ranile</h1>
-        <p>Software Engineer</p>
+        <p>Software Developer</p>
       </div>
     </div>
   </header>

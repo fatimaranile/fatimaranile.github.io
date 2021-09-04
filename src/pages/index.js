@@ -85,9 +85,10 @@ class Index extends React.Component {
                 </p>
                 <p>
                   Gomigu is a free messaging application in which it can be used
-                  through a web app and/or mobile phone. During my involvement,
-                  the mobile application was developed using React Native as a
-                  framework, Redux to manage its state, and Javascript.
+                  through a web browser and/or mobile phone. During my
+                  involvement, the mobile application was developed using React
+                  Native as a framework, Redux to manage its state, and
+                  Javascript.
                 </p>
                 <ul className="icons applicationicons">
                   <li>
@@ -132,6 +133,16 @@ class Index extends React.Component {
                   <h2>Work Experience</h2>
                 </header>
                 <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-bookmark"></i>
+                    </span>
+                    <p>
+                      WeServ Systems International Inc <br /> July 2021 -
+                      Present <br />
+                      Application Systems Engineer/Consultant
+                    </p>
+                  </li>
                   <li>
                     <span class="fa-li">
                       <i class="fa fa-bookmark"></i>
@@ -186,13 +197,44 @@ class Index extends React.Component {
                     <span class="fa-li">
                       <i class="fa fa-terminal"></i>
                     </span>
+                    <p>Git</p>
+                  </li>
+                </ul>
+              </div>
+              <div className="details skills">
+                <header className="major">
+                  <h2>Currently Exploring</h2>
+                </header>
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
                     <p>ReactJS</p>
                   </li>
                   <li>
                     <span class="fa-li">
                       <i class="fa fa-terminal"></i>
                     </span>
-                    <p>Git</p>
+                    <p>Node.js</p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>Express</p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>PostgreSQL</p>
+                  </li>
+                  <li>
+                    <span class="fa-li">
+                      <i class="fa fa-terminal"></i>
+                    </span>
+                    <p>RESTful API</p>
                   </li>
                 </ul>
               </div>
