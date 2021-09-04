@@ -1,11 +1,11 @@
 import React from 'react'
 
 const WorkExperience = props => (
-  <div className="details workexperience">
+  <div className="content">
     <header className="major">
       <h2>Work Experience</h2>
     </header>
-    <ul class="fa-ul">
+    <ul class="features fa-ul">
       <li>
         <span class="fa-li">
           <i class="fa fa-bookmark"></i>
@@ -28,7 +28,6 @@ const WorkExperience = props => (
         <span class="fa-li">
           <i class="fa fa-bookmark"></i>
         </span>
-
         <p>
           Zoog Technologies, Inc. <br /> May 2017 - Feb 2018 <br />
           Front-End Software Developer

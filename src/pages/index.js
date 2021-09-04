@@ -130,10 +130,12 @@ class Index extends React.Component {
                 <img src={patDP} alt="" />
               </span>
             </div>
-            <div className="details">
-              <WorkExperience />
+            <div className="spotlight">
               <Skills />
               <Exploring />
+            </div>
+            <div className="spotlight">
+              <WorkExperience />
             </div>
           </section>
 
